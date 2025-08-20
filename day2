@@ -1,0 +1,31 @@
+    
+  }// Задание 4
+let cadence = 60
+var testSteps = 0 
+import Foundation 
+repeat {
+    print("Сделайте шаг")
+    testSteps += 1
+ Thread.sleep(forTimeInterval: 60.0 / Double(cadence))
+} while testSteps < 10
+
+ // Задание 5
+var cities : [String: String] = [ "Almaty": "Аla" , "Aralsk" : "ARL" , "Aqtobe" :"AKT" , "Tulkibas" : "TLB"]
+for (key,value) in cities {
+    print("\(key):\(value)")
+ if  key == "Aralsk" {
+    print("Я нашел свой город!")
+}
+}
+// Задание 6
+var movementHeartRates = ["Прыжки со скакалкой": 78, "Бег на беговой дорожке": 89, "Приседание": 80]
+var lowHR = 79
+var highHR = 91
+
+for (key, value) in movementHeartRates {
+    print("\(key):\(value)")  
+    
+    if value >= lowHR {
+        print("Вы могли бы сделать \(key).")
+    }
+}
