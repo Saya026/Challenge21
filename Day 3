@@ -1,0 +1,20 @@
+Задание 7
+let text = "Столица Казахстана - Астана"
+var countA = 0 
+for contains in text.lowercased() {
+    if contains == "а" {
+    countA += 1 }
+}
+print(countA)
+
+// Задание 8
+let array = [0, 1, 2, 3, 4, 1, 5, 6, 2, 1]
+var count1 = 0
+
+for contains in array {
+    if contains == 1 {
+        count1 += 1
+    }
+}
+print(count1)
+Закончила задания 9 урока
