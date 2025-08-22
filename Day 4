@@ -1,0 +1,9 @@
+// Задание 1 , 10 урока
+struct GPS {
+    var width : Double = 0
+    var longitude : Double = 0
+}
+var somePlace = GPS (width:0 ,longitude : 0 )
+print(somePlace )
+somePlace = GPS (width: 51.514004 ,longitude :0.125226  )
+print(somePlace )
