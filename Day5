@@ -1,0 +1,9 @@
+// Задание 2, 10 урока
+struct book {
+    var name: String
+    var author : String
+    var page = 0
+    var price: Double = 0 
+}
+var favoriteBook = book(name: "Жизнь взаймы", author: "Мария Генрих Ремарк", page : 256 , price : 2350 )
+print(favoriteBook) 
