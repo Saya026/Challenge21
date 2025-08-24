@@ -1,0 +1,14 @@
+// Задание 3 , 10 урока
+struct RunningWorkout {
+    var distance : Double = 0
+    var time : Double = 0
+    var height : Double = 0
+}
+var firstRun  = RunningWorkout (distance:0 ,time: 0, height : 0)
+print(firstRun.time)
+print(firstRun.distance)
+print(firstRun.height)
+firstRun = RunningWorkout (distance:2396 ,time: 15.3 , height : 94)
+print(firstRun.time)
+print(firstRun.distance)
+print(firstRun.height)
